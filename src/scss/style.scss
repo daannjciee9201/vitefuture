@@ -1,0 +1,22 @@
+// 導入 Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// 自定義樣式
+.hero-section {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-section {
+  min-height: 100vh; /* 確保滿版 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+              url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
